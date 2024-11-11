@@ -1,0 +1,329 @@
+
+    body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+         
+        }
+        .active{
+           
+            position: absolute;
+            left: 1130px;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .topnav .icon {
+            display: none;
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+            
+/* second */
+
+#h5{
+    color: red;
+   font-family: serif;
+padding-top: 40px;
+  
+}
+.carrd{
+    filter: contrast(2);
+  
+}
+
+#button{
+border-radius: 10px;
+box-shadow: 1px 1px 1px red;
+}
+.pp{
+    color:red;
+    font-style: italic;
+}
+
+
+
+
+
+/* third */
+#firstsection{
+margin-top: 20px;
+}
+
+
+ul{
+    color: red;
+    padding-top: 20px;
+}
+
+.h5{
+    color: black;
+font-family: serif;
+    text-align: left;
+    padding-top: 9px;
+
+}
+
+.button2{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.button2:hover{
+    background-color: peachpuff;
+    color: red;
+}
+ .p2 {
+    color: black;
+ text-align: left;
+}
+.image1{
+    /* border-radius: 30px; */
+    border:red solid 1px;
+    outline:1px solid black;
+    outline-offset: 2px;
+border-radius: 10px;
+}
+
+
+/* third */
+
+#article{
+    height: 500px;
+    background-color: black;
+    margin-top: 25px;
+    background-image:url(dentist-2530983_640.jpg) ;
+    background-repeat: no-repeat;
+  background-size: cover;
+filter: contrast(1.7);
+text-align: center;
+padding-top: 100px;
+
+}
+
+
+#h6{
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px red;   
+    font-family: serif;
+
+}
+.p3{
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+/* five */
+
+.text{
+    color: black;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+margin-bottom: -30px;
+}
+
+
+.text1{
+    color: blue;
+    font-style: italic;
+}
+
+.info2{
+    font-family: serif;
+    font-weight: 700;
+    animation: infinite 2s pp;
+}
+
+@keyframes pp{
+    30%{
+        color: red;
+    }
+    70%{
+        color: brown;
+    }
+}
+
+
+#col{
+    box-shadow: 0px 7px 0px green;
+    border-color: black;
+}
+
+
+
+
+
+/* six */
+
+
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+#i{
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    box-shadow: 1px 1px 3px red;
+
+}
+
+.p4{
+    float: left;
+    color: blue;
+    font-style: italic;
+    padding-top: 10px;
+}
+.text3{
+    color: brown;
+    font-family: serif;
+    font-size: 23px;
+}
+
+
+
+
+
+/* seven */
+.footer1{
+    padding-top: 40px;
+    text-align: center;
+    background-image:url(chair-2584260_640.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.endtext{
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.final_h6{
+    color: red;
+    font-family: serif;
+    font-size: 20px;
+}
+.span1{
+    color: black;
+}
+.final_h5{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
